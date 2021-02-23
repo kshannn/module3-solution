@@ -1,9 +1,14 @@
 /*====For mobile====*/
 
+body{
+	height:1000px;
+}
+
 .container-fluid{
 	padding-left:0;
 	padding-right:0;
 }
+
 
 /*nav header css*/
 .navbar-header{
@@ -43,7 +48,6 @@ body{
 }
 
 h1{
-	text-align: center;
 	font-size: 175%;
 }
 
@@ -93,10 +97,24 @@ p:nth-child(2){
 	background-color:#e5d198;
 }
 
-
-
-/*====For SM devices====*/
+/*For tablet and desktop*/
 @media screen AND (min-width: 768px){
+	.navbar-collapse{
+		background-color:grey;
+	}
+
+	.col-md-4{
+		width:31.33%;
+		margin:0% 1% 0% 1%;
+	}
+
+}
+
+
+/**********OPTIONAL ASSIGNMENT**********/
+
+/*====For sm devices====*/
+/*@media screen AND (min-width: 768px){
 	.navbar-collapse{
 		background-color:grey;
 	}
@@ -112,9 +130,10 @@ p:nth-child(2){
 		margin:0% 1% 0% 1%;
 	}
 
-}
+}*/
 
-@media screen AND (min-width: 992px){
+/*====For md devices====*/
+/*@media screen AND (min-width: 992px){
 	.navbar-collapse{
 		background-color:grey;
 	}
@@ -124,4 +143,4 @@ p:nth-child(2){
 		margin:0% 1% 0% 1%;
 	}
 
-}
+}*/
