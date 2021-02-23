@@ -1,0 +1,127 @@
+/*====For mobile====*/
+
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+
+/*nav header css*/
+.navbar-header{
+	background-color: grey;
+}
+
+.navbar-default .navbar-brand{
+	color:#000000;
+	font-weight: bold;
+	padding-left:30px;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar{ 
+	background-color:#ffffff; 
+} 
+
+
+/*collapse menu css*/
+.navbar-collapse{
+	background-color:#d4d4d4;
+	text-align: center;
+}
+
+
+.navbar-collapse .navbar-nav{
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+
+
+.container-fluid .row{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.content{
+	background-color:rgba(153, 102, 51,0.2);
+	border:1px black solid;
+	width:90%;
+	margin:auto;
+	margin-bottom:3%;
+	padding:0;
+
+}
+
+p:nth-child(2){
+	padding:3%;
+	clear:right;
+	line-height: 1.4;
+}
+
+.title{
+	float:right;
+	padding:1% 3% 1% 3%;
+	border:1px solid black;
+	margin-top:-1px;
+	margin-right:-1px;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+
+#chicken_title{
+	background-color:#d59898;
+}
+
+#beef_title{
+	background-color:#c14543;
+	color:#ffffff;
+}
+
+#sushi_title{
+	background-color:#e5d198;
+}
+
+
+
+/*====For SM devices====*/
+@media screen AND (min-width: 768px){
+	.navbar-collapse{
+		background-color:grey;
+	}
+
+	.col-sm-6{
+		width:48%;
+		margin:0 1% 2% 1%;
+
+	}
+
+	.col-sm-12{
+		width:98%;
+		margin:0% 1% 0% 1%;
+	}
+
+}
+
+@media screen AND (min-width: 992px){
+	.navbar-collapse{
+		background-color:grey;
+	}
+
+	.col-md-4{
+		width:31.33%;
+		margin:0% 1% 0% 1%;
+	}
+
+}
