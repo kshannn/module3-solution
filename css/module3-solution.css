@@ -12,7 +12,7 @@ body{
 
 /*nav header css*/
 .navbar-header{
-	background-color: grey;
+	background-color: #808080;
 }
 
 .navbar-default .navbar-brand{
@@ -58,7 +58,7 @@ h1{
 }
 
 .content{
-	background-color:rgba(153, 102, 51,0.2);
+	background-color:#B9B7A7;
 	border:1px black solid;
 	width:90%;
 	margin:auto;
@@ -100,7 +100,7 @@ p:nth-child(2){
 /*For tablet and desktop*/
 @media screen AND (min-width: 768px){
 	.navbar-collapse{
-		background-color:grey;
+		background-color:#808080;
 	}
 
 	.col-md-4{
